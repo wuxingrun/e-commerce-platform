@@ -1,0 +1,65 @@
+
+# ========================
+# 1. IDEA 开发工具文件
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+# ========================
+# 2. SpringBoot 后端
+# ========================
+# Maven构建目录
+target/
+*.jar
+*.war
+*.ear
+
+# Gradle构建目录
+.gradle/
+build/
+
+# 日志文件
+logs/
+*.log
+
+# 应用配置（敏感信息，建议忽略）
+application-dev.yml
+application-dev.properties
+*.local.yml
+
+# 临时文件
+*.tmp
+*.bak
+
+# ========================
+# 3. Vue 前端
+# ========================
+# Node依赖包（核心！必须忽略）
+node_modules/
+
+# 前端构建产物
+dist/
+dist-ssr/
+*.local
+
+# npm/yarn/pnpm 缓存日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vue 自动生成文件
+.nuxt/
+.nitro/
+.cache/
+.vuepress/dist
+
+# ========================
+# 4. 系统通用垃圾文件
+# ========================
+.DS_Store
+Thumbs.db
